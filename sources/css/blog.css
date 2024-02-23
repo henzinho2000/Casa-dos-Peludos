@@ -123,7 +123,7 @@ span{
 
 
 /*  MEDIA  */
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 1270px){
     header{
         position: static;
         margin-top: 0vh;
@@ -170,7 +170,7 @@ span{
     .image{
         margin: -10vh 2.5vw;
 
-        width: 80vw;
+        width: 400px;
         height: 30vh;
     }
 
