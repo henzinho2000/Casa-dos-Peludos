@@ -469,12 +469,13 @@ footer{
                 height: 10vh;
                 width: 100vw;
                 display:flex;
-                font-size: 20px;
+                
                 align-items: center;
                 justify-content: start;
             }
             .aheader{
                 margin-left: 20px;
+                font-size: 5vw;
             }
             .aheader:hover{
                 transform: scale(1);
