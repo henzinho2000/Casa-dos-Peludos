@@ -434,11 +434,11 @@ footer{
         
             .zapzap{
                 background-color: rgb(244, 129, 87);
-                width: 220px;
-                margin-left: 200px;
+                width: 40vw;
+                margin-left: 55vw;
             }
             .zapzap p{
-                font-size: 15px;
+                font-size: 3.5vw;
             }
         
             .blog2{
