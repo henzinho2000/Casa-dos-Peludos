@@ -6,10 +6,18 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
-
 body{
-    box-sizing: border-box;
     background-color: #fcf3d5;
+}
+
+/*  SCROLL  */
+::-webkit-scrollbar {
+    width: .75rem;
+    background-color: #fcf3d5;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #4c1f78;
+    border-radius: 25px;
 }
 
 /*  CABEÇALHO  */
@@ -68,7 +76,7 @@ a{
     width: 40px;
 }
 
-/**/
+/*  TÍTULO  */
 h1{
     color: rgb(244, 129, 87);
     font-weight: 900;
@@ -98,4 +106,74 @@ span{
     margin-left: 70px;
     width: 88vw;
     text-align: justify;
+}
+
+.box4{
+    background-color: rgb(244, 129, 87);
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 43px;
+}
+
+
+/*  MEDIA  */
+@media only screen and (max-width: 770px){
+    header{
+        position: static;
+        margin-top: 0vh;
+        width: 100%;
+        background-color: #4c1f78;
+        font-size: 10px;
+    }
+
+    .zapzap{
+        background-color: rgb(244, 129, 87);
+        width: 220px;
+        margin-left: 200px;
+    }
+    .zapzap p{
+        font-size: 20px;
+    }
+
+    .botaoheader{
+        background-color: #4c1f78;
+        height: 10vh;
+        width: 100vw;
+        display:flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: start;
+    }
+    .aheader{
+        margin-left: 20px;
+    }
+    .aheader:hover{
+        transform: scale(1);
+    }
+
+    .titulo{
+        display: block;
+    }    
+    .titulo h1{
+        font-size: 25px;
+        margin: 10vh 2vw;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .image{
+        margin: -10vh 2.5vw;
+
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .text{
+        width: 70vw;
+        padding-bottom: 5vh;
+    }
 }
