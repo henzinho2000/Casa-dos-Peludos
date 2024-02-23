@@ -444,10 +444,10 @@ footer{
             .blog2{
                 flex-direction: column;
                 justify-content: center;
-                margin-left: 70px;
+                margin-left: 10vw;
             }
             .blog3{
-                width: 350px;
+                width: 75vw;
                 height: 210px;
                 font-size: 12px;
                 margin-top: 30px;
@@ -461,6 +461,7 @@ footer{
             }
             .blog3 img{
                 height: 200px;
+                width: auto;
             }
         
             .botaoheader{
