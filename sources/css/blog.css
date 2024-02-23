@@ -16,7 +16,7 @@ body{
     background-color: #fcf3d5;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #4c1f78;
+    background-color: rgb(77, 31, 122);
     border-radius: 25px;
 }
 
@@ -39,6 +39,7 @@ a{
     color: white;
     transition: all .25s;
 }
+
 
 .botaoheader{
     background-color: #4c1f78;
