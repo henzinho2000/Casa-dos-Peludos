@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <!--HEAD-->
+    <head>
+        <title>Casa dos Peludos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="@henzo_arty">
+        <link rel="stylesheet" href="./sources/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserratwght@300;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="./sources/favicon.ico" type= "image/x-icon">
+    </head>
+
+    <!--HEADER-->
+    <header>
+        <img src="" alt="">
+
+        <nav class="botaoheader">
+            <a class="aheader" href="#secao2">Agendamento</a>
+            <a class="aheader" href="#BLOG">Blog</a>
+        </nav>
+
+        <a class="zapzap" href="https://wa.me/5511987051565?text=olá%2C%20tudo%20bem?queria%20saber%20sobre%20como%20eu%20posso%20agendar%20com%20vocês?" target="_blank">
+            <img src="./sources/images/3.png">
+            <p>(11) 98705-1565</p>
+        </a>
+
+    </header>
+
+    <!--BODY-->
+    <body>
+        
+        <div class="secao1">
+            <img src="./sources/images/2.png" alt="">
+            <h1><span>TUDO </span>PARA O SEU <span>PET</span> EM UM SÓ LUGAR</h1>
+        </div>
+
+        <div id="secao2">
+            <div class="cachorro1">
+                <img class="cachorro" src="./sources/images/7.png" alt="">
+                <h1 class="cachorro2">"PROFISSIONAIS DE <span>EXTREMA</span> COMPETÊNCIA TÉCNICA"</h1>
+                <p>-VOZES DA MINHA CABEÇA-</p>
+            </div>
+            <section>
+                <h2>AGENDE!!!</h2>
+                <p>Preenche os campos abaixo para falar com a gente via whatsapp</p>
+                <form id="cadastroForm" action="https://api.staticforms.xyz/submit" method="post">
+                    <div class="radio">
+                        <div class="radio2">
+                            <label>CONSULTA:</label>
+                            <input type="checkbox" name="$consulta">
+                        </div>
+                        <div class="radio2">
+                            <label>EXAME:</label>
+                            <input type="checkbox" name="$exame">
+                        </div>
+                    </div>
+
+                    <input type="text" name="name" placeholder="Digite seu nome" required>
+                    <input type="text" name="$sobrenome" placeholder="digite seu sobrenome">
+                    <input type="text"name="$telefone" id="tel" placeholder="Digite seu telefone" required oninput="formatarTel(this)" maxlength="12">
+                    <input type="text" name="email" placeholder="Digite seu email" required>
+                        
+                    <div class="animais">
+                        <div class="animais2">
+                            <img class="animais3" src="./sources/images/4.png" alt="">
+                            <label>CÃO</label>
+                            <input type="checkbox" id="cao" name="$cao">
+                        </div>
+
+                        <div class="animais2">
+                            <img class="animais3" src="./sources/images/5.png" alt="">
+                            <label>GATO</label>
+                            <input type="checkbox" id="gato" name="$gato">
+                        </div>
+                        
+                        <div class="animais2">
+                            <img class="animais3" src="./sources/images/6.png" alt="">
+                            <label>OUTRO</label>
+                            <input type="checkbox" id="outro" name="$outro">
+                        </div>
+                    </div>
+                    
+                    <select name="$especialidade" id="especialidade">
+                        <option selected="" disabled="" value="">Especialidade</option>
+                        <option value="Outra">Não sei / OUTRA</option>
+                        <option value="Acupuntura">Acupuntura</option>
+                        <option value="Ambulatorio_dor">Ambulatório de Dor</option>
+                        <option value="Cardiologia">Cardiologia</option>
+                        <option value="Castracao">Castração</option>
+                        <option value="Clinica_geral">Clínica Geral</option>
+                        <option value="Clinica_cirurgica">Clínica Cirurgica</option>
+                        <option value="Dermatologia">Dermatologia</option>
+                        <option value="Endocrinologia">Endocrinologia</option>
+                        <option value="Especialista_felinos">Especialista em Felinos</option>
+                        <option value="Fisioterapia">Fisioterapia</option>
+                        <option value="Gastroenterologista">Gastroenterologista</option>
+                        <option value="Hematologista">Hematologista</option>
+                        <option value="Nefrologista">Nefrologista</option>
+                        <option value="Neurologista">Neurologista</option>
+                        <option value="Nutricionista">Nutricionista</option>
+                        <option value="Odontologia">Odontologia</option>
+                        <option value="Oftalmologista">Oftalmologista</option>
+                        <option value="Oncologista">Oncologista</option>
+                        <option value="Ortopedista">Ortopedista</option>
+                        <option value="Paliativismo">Paliativismo</option>
+                        <option value="Pneumologista">Pneumologista</option>
+                        <option value="Especialista_silvestres">Especialista em Silvestres</option>
+                    </select>
+
+                    <button type="submit">Enviar</button>
+                    <input type="hidden" name="accessKey" value="f503a6f9-a575-4ed7-8cbe-3e6bf7b943bb">
+                    <input type="hidden" name="redirectTo" value="https://wa.me/5511987051565?text=oi%2C%20tudo%20bem?%20eu%20ja%20fiz%20o%20meu%20cadastro%20pelo%20site">
+                </form>
+            </section>
+        </div>
+
+        <div id="BLOG" class="blog">
+            <div class="blog4">
+                <h1>CONHEÇA O NOSSO BLOG</h1>
+            </div>
+            <div class="blog2">
+                <a class="blog3" href="./blog1.html">
+                    <img src="./sources/images/10.png" alt="">
+                    <h2>dicas e cuidados diários para o seu pet</h2>
+                </a>
+                <a class="blog3" href="./blog2.html">
+                    <img src="./sources/images/9.png" alt="">
+                    <h2>raças de cães e gatos</h2>
+                </a>
+                <a class="blog3" href="./blog3.html">
+                    <img src="./sources/images/8.png" alt="">
+                    <h2>o guia completo para cuidar de animas exóticos</h2>
+                </a>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="box1">
+            <img src="" alt="">
+            <h1>VETERINÁRIA & PETSHOP</h1>
+            <nav class="redes">
+                <a href="https://www.instagram.com/henzo_arty" target="_blank" class="imgs">
+                    <img src="./sources/images/16.png" alt="" class="svgs">
+                    <p href="">@henzo_arty<br></p>
+                </a>
+                <a href="https://mail.google.com" target="_blank" class="imgs">
+                    <img src="./sources/images/17.png" alt="" class="svgs">
+                    <p>henzoca.2020@gmail.com</p>
+                </a>
+
+            </nav>
+        </div>
+
+        <div class="box2">
+            <img src="./sources/images/14.png" alt="" class="svg">
+            <div class="endereco">
+                <h2>Endereço</h2>
+                <p>R. Urucara, 77 - Jardim Violeta, Poá - SP, 08555-520</p>
+                <a href="https://www.google.com.br/maps/place/23%C2%B030'28.7%22S+46%C2%B021'04.6%22W/@-23.5080421,-46.3513869,19.92z/data=!4m4!3m3!8m2!3d-23.507972!4d-46.351287?entry=ttu" target="_blank" class="google">GOOGLE MAPS</a>
+            </div>
+        </div>
+
+        <div class="box2">
+            <img src="./sources/images/15.png" alt="" class="svg1">
+            <div class="endereco">
+                <h2>agenda de consulta e exame</h2>
+                <p>+55 11 98705-1565</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="box4">
+        <p>seu pet nosso cuidado.</p>
+    </div>
+
+</html>
